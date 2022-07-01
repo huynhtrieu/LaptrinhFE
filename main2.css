@@ -66,6 +66,7 @@ html {
     background-image: linear-gradient(135deg, rgba(200,150,0,0.5), rgba(0,50,255,0.5)), 
     url(https://vnn-imgs-a1.vgcloud.vn/image.anninhthudo.vn/h500/uploaded/206/2019_10_24/bugatti_chiron_2.jpg);
     background-size: cover;
+    background-position: center top;
 }
 
 
