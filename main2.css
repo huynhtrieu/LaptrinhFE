@@ -50,15 +50,18 @@ html {
 
 .body {
     width: 100%;
-    height: 500px;
-    background-color: #333;
-    padding: 20px;
+    height: 100%;
+    /* background-color: #333; */
+    /* padding: 20px;
     box-sizing: border-box;
     border: 10px dashed red;
-    background-clip: content-box;
-    background-image: url(https://static.danhgiaxe.com/data/201525/the-aventadors-aggressive-lines-and-stealth-fighter-like-edges-make-for-a-menacing-beauty-thats-perfect-for-lambos-attention-hoarding-ethos_2324.jpg);
-    background-size: 900px;
+    background-clip: content-box; */
+    /* background-image:  */
+    /* url(https://vnn-imgs-a1.vgcloud.vn/image.anninhthudo.vn/h500/uploaded/206/2019_10_24/bugatti_chiron_2.jpg); */
+    /* background-size: 100%; */
     background-repeat: no-repeat;
+    
+    background-image: linear-gradient(135deg, #81ecec, #fab1a0);
 }
 
 
