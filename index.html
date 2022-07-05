@@ -8,17 +8,13 @@
 </head>
 <body>
     <script>
-        let trieu = {
-            name: 'Trieu handsome',
-            deptrai: true,
-            age: 26,
-            sing: function() {
-                document.write('Toidicodedao')
+        function printN(n) {
+            for (let i = 0; i < n; i++) {
+            document.write(i + "<br/>")
             }
-        };
-        document.write(trieu.name)
-        document.write(trieu.deptrai)
-        trieu.sing()
+        }
+
+        printN(5)
     </script>
     
   
