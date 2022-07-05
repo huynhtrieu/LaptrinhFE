@@ -1,0 +1,21 @@
+#ngu1 {
+    position: relative;
+    top: -10px;
+}
+
+#ngu2 {
+    position: relative;
+    top: -14px;
+    cursor: pointer;
+    transition: all 1s;
+}
+#ngu3 {
+    position: relative;
+    /* margin-top: -18px; */
+}
+
+#status {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
