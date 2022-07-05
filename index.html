@@ -1,78 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <!-- Phần đầu -->
-    <head>
-        <title>F8_Shop</title>
-        <meta charset="utf-8">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        let trieu = {
+            name: 'Trieu handsome',
+            deptrai: true,
+            age: 26,
+            sing: function() {
+                document.write('Toidicodedao')
+            }
+        };
+        document.write(trieu.name)
+        document.write(trieu.deptrai)
+        trieu.sing()
+    </script>
+    
+  
+     <div>
+        <script>
+            const traicay = ['xoai', 'quyt', 'cam', 'buoi']
+            for (const trai of traicay) {
+                document.write(trai + "<br/>")
+            }
 
-    <!-- Phần thân -->
-    <body>
-        <h1>Hotwheels</h1>
-
-        <input type="text">
-        <input type="checkbox">
-
-        <br>
-
-        <input type="radio">
-        <input type="radio">
-        <input type="radio">
-
-        <br>
-        <button>Đăng kí</button>
-        
-        <h3>Hotwheels</h3>
-        <hr>
-        <h4>Lorem ifsum</h4>
-        <p>Kao là con mèo ngu ngok dang iu</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkN3pRGTAUisDHyzEot20kmwALnFfUDVFCow&usqp=CAU" alt="Ảnh GTR R35">
-        <br>
-        <a href="https://www.youtube.com">Trang FB</a>
-
-        <!-- ul: unodered list; li: list item -->
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVA</li>
-            <li>PHP</li>
-        </ul>
-
-        
-
-
-
-        <table>
-            <!-- thead: table head -->
-            <thead>
-                <!-- th: table heading -->
-                <th>STT</th>
-                <th>Tên</th>
-                <th>SĐT</th>
-            </thead>
-
-            <tbody>
-                <!-- table row-->
-                <!-- thẻ td tương ứng với thẻ th -->
-                <tr>
-                    <td>1</td>
-                    <td>Triều</td>
-                    <td>0776157824</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>An</td>
-                    <td>0918069069</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Bao</td>
-                    <td>0905050506</td>
-                </tr>
-            </tbody>
-        </table>
-
-
-
-    </body>
+            for (let index = 0; index < traicay.length; index++) {
+                console.log({index})
+                const trai = traicay[index];
+                document.write(trai + "<br/>")
+            }
+        </script>
+     </div>
+</body>
 </html>
