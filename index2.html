@@ -31,10 +31,22 @@
     <div class="box box2">Box 2</div>
     <div class="box box3">Box 3</div>
     
-    
-    <!-- <div class="header"></div> -->
+  
+    <div>
+        <a style="text-decoration: none;" href="" >Make color</a>
+        <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>    
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
+        $(document).ready(function(){
+            // alert('Success loading')
+            $('a').click(function(){
+                $('p').css('color', 'red')
+                return false;
+            });
+            
+        });
+            
         
     </script>
 </body>

@@ -25,7 +25,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
+    /* float: left; */
+    
 }
 
 .box1 {
