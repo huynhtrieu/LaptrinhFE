@@ -1,11 +1,11 @@
 #ngu1 {
     position: relative;
-    top: -10px;
+    /* top: -10px; */
 }
 
 #ngu2 {
     position: relative;
-    top: -14px;
+    /* top: -14px; */
     cursor: pointer;
     transition: all 1s;
 }
