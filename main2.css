@@ -13,7 +13,6 @@ html {
 
 .second_heading {
     color: var(--text-color);
-    /* color:chocolate; */
     font-size: 1rem;
     font-style: oblique;
 }
@@ -25,8 +24,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* float: left; */
-    
 }
 
 .box1 {
