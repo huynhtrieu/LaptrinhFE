@@ -9,47 +9,25 @@
 </head>
 
 <body>
-    <div>
-        <img src="./ngudot0.jpg" class="">
-    </div>
-    <div>
-        <img src="./ngudot1.jpg" id="ngu1" class="ngu">
-        <br>
-        <img src="./ngudot2.jpg" id="ngu2" class="ngu">
-    </div>
-    <div>
-        <img src="./ngudot3.jpg" id="ngu3">
-    </div>
-    <span id="status">Ngu dốt</span>
+    
 </body>
 
 <script>
-    function playSound() {
-        const audio = new Audio('2021.mp3');
-        audio.play();
-    }
+// 4. Arrow funciton
+// 5. Classes
+// 6. Default parameter
+// 7. Destructuring
+// 8. Rest parametters
+// 9. Spread
+// 10. Enhanced object literals
+// 11. Tagged template literal
+// 12. Modules
 
-    const status = document.querySelector('#status')
+    const logger = (log) => {
+    console.log(log);
+}
 
-    const ngu2 = document.querySelector('#ngu2');
-    ngu2.onclick = () => {
-        playSound();
-        ngu2.style.top = '-50px';
-        setTimeout(() => {
-            ngu2.style.top = '-15px';
-        }, 1000);
-    }
-
-    ngu2.onmouseover = () => {
-        ngu2.style.width = '1000px';
-        status.innerText = "Chạm khẽ môi em";
-    }
-    
-    ngu2.onmouseleave = () => {
-        ngu2.style.width = '800px';
-        status.innerText = "Thả em ra";
-    }
-
+logger('Message...')
 </script>
 
 
