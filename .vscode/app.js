@@ -16,4 +16,22 @@ import * as constants from './constants.js';
 
 console.log(constants);
 
+logger('Test Message...', constants.TYPE_LOG);
+
+// 1. Định nghĩa key: value cho object
+// 2. Định nghĩa method cho object
+// 3. Định nghĩa key cho object dưới dạng biến
+
+var name = 'Javascript';
+var price = 1000;
+
+var course = {
+    name,
+    price,
+    getName() {
+        return name;
+    }
+};
+
+console.log(course);
 
